@@ -1,0 +1,11 @@
+# Read radius from user
+radius = float(input())
+
+# قيمة π
+pi = 3.14
+
+# Calculate area
+area = pi * radius * radius
+
+# Print result formatted to 4 decimal places
+print(f"{area:.4f}")
